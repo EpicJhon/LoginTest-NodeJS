@@ -1,0 +1,9 @@
+{% extends "layout.html.twig" %}
+{% set title = 'Welcome to system' %}
+{% block div_container %}
+    <h1>Welcome back {{ username }}</h1>
+    <blockquote class="blockquote-reverse">
+        This is the home page.
+    </blockquote>
+    <a href="{{ path('logout') }}">Log Out</a>
+{% endblock %}
