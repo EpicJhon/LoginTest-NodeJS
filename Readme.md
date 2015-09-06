@@ -4,3 +4,4 @@
 * twig@0.8.2
 * body-parser@1.13.3
 * express@4.13.3
+* mysql@2.9.0
