@@ -1,3 +1,7 @@
+##example of system login.
+
+Technologies: Bootstrap + NodeJS + MySQL + Templating System
+
 ###npm modules:
 * cookie-parser@1.3.5
 * deasync@0.1.1
