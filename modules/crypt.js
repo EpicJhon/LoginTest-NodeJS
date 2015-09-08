@@ -1,6 +1,7 @@
 var crypto = require('crypto');
+var config = require('../config');
 var algorithm = 'aes-256-ctr';
-var password = 'd6F3Efeq';
+var password = config.secret_key;
 
 module.exports = {
 // Nodejs encryption with CTR
